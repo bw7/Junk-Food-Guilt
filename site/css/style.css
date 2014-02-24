@@ -13,7 +13,7 @@ body {
 
 .snackContainer img { 
 	float: left;	
-	margin: 10px; 
+	margin: 8px; 
 }
 
 .snackContainer ul { 
@@ -23,19 +23,19 @@ body {
 
 .snackContainer button { 
 	float: right;
-	margin: 8px; 
+	margin: 15px; 
 }
 
 #addSnack label { 
 	width: 100px;
-	margin-right: 8px; 
+	margin-right: 3px; 
 	text-align: right; 
 	line-height: 25px;
 }
 
 #addSnack label, #addSnack input { 
 	display: block;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 	float: left; 
 }
 
