@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Junk Food Guilt</title>
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    	<div id="snacks">
+			<form id="addSnack" action="#">
+				<div>
+					<label for="snackImage">Snack Image: </label>
+					<input id="snackImage" type="file" />
+					<label for="name">Name: </label>
+					<input id="name" type="text" /> 
+					<label for="calories">Calories: </label>
+					<input id="calories" type="text" />
+					<label for="exercise">Exercise: </label>
+					<input id="exercise" type="text" />
+					<label for="exerciseDuration">Exercise Duration: </label>
+					<input id="exerciseDuration" type="text" />
+					<button id="add">Add</button>
+            	</div>
+        	</form>
+		</div>
+
+		<div class ="snackContainer">
+			<img src="img/sample.png"/>
+        	<ul>
+            	<li>Name</li>
+            	<li>Calories</li>
+            	<li>Exercise</li>
+            	<li>Exercise Duration</li>
+			</ul>
+			<button class="delete">Delete</button>
+		</div>
+
+		</script>
+		<script src="js/lib/jquery.min.js"></script> 
+		<script src="js/lib/underscore-min.js"></script> 
+		<script src="js/lib/backbone-min.js"></script> 
+		<script src="js/models/snack.js"></script>
+		<script src="js/collections/machine.js"></script> 
+		<script src="js/views/snack.js"></script>
+		<script src="js/views/machine.js"></script> 
+		<script src="js/app.js"></script>
+    </body>
+</html>
