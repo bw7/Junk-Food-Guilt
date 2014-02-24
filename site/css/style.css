@@ -1,0 +1,65 @@
+body {
+	background-color: #eee;
+}
+
+.snackContainer {
+	outline: 1px solid #aaa; 
+	width: 350px;
+	height: 235px; 
+	background-color: #fff; 
+	float: left;
+	margin: 5px;
+}
+
+.snackContainer img { 
+	float: left;	
+	margin: 10px; 
+}
+
+.snackContainer ul { 
+	list-style-type: none;
+	margin-bottom: 0; 
+}
+
+.snackContainer button { 
+	float: right;
+	margin: 8px; 
+}
+
+#addSnack label { 
+	width: 100px;
+	margin-right: 8px; 
+	text-align: right; 
+	line-height: 25px;
+}
+
+#addSnack label, #addSnack input { 
+	display: block;
+	margin-bottom: 8px;
+	float: left; 
+}
+
+#addSnack label[for="name"], #addSnack label[for="exercise"] { 
+	clear: both;
+}
+
+#addSnack button { 
+	display: block;
+	margin: 5px 20px 10px 10px; 
+	float: right;
+	clear: both;
+}
+
+#addSnack div { 
+	width: 550px;
+}
+
+#addSnack div:after { 
+	content: "";
+	display: block; 
+	height: 0; 
+	visibility: hidden; 
+	clear: both; 
+	font-size: 0; 
+	line-height: 0;
+}
