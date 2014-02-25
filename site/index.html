@@ -90,6 +90,16 @@
 			<button class="delete">Delete</button>
 		</div>
 
+		<script id="snackTemplate" type="text/template"> 
+			<img src="<%= snackImage %>"/>
+			<ul>
+            	<li><%= name %></li>
+            	<li><%= calories %></li>
+            	<li><%= exercise %></li>
+            	<li><%= duration %></li>
+			</ul>
+
+			<button class="delete">Delete</button>
 		</script>
 		<script src="js/lib/jquery.min.js"></script> 
 		<script src="js/lib/underscore-min.js"></script> 
